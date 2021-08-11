@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e77b7d594056580678fe7de815ac7270",
+    "content-hash": "f0a9c0525d40013c6c78d4bb20da7b9b",
     "packages": [
+        {
+            "name": "gagit/base",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gagit/base.git",
+                "reference": "98a53ff148c96f28ed4bc824451671778e771918"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gagit/base/zipball/98a53ff148c96f28ed4bc824451671778e771918",
+                "reference": "98a53ff148c96f28ed4bc824451671778e771918",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-iconv": "*",
+                "php": "^7.4",
+                "symfony/console": "5.3.*",
+                "symfony/dotenv": "5.3.*",
+                "symfony/flex": "^1.6",
+                "symfony/framework-bundle": "5.3.*",
+                "symfony/yaml": "5.3.*"
+            },
+            "conflict": {
+                "symfony/symfony": "*"
+            },
+            "type": "library",
+            "extra": {
+                "symfony": {
+                    "allow-contrib": false,
+                    "require": "5.3.*"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "App\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "clases básicas y útiles",
+            "support": {
+                "issues": "https://github.com/gagit/base/issues",
+                "source": "https://github.com/gagit/base/tree/0.1"
+            },
+            "time": "2021-08-10T23:45:15+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "1.0.1",
@@ -2684,5 +2734,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
